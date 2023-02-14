@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Orbitron&family=Quicksand:wght@400;600;700&display=swap');
+
+:root {
+    --dark-alt: #0c0e15;
+    --dark: #030406;    
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--dark);
+    color: red;
+    display: flex;
+    justify-content: center;
+
+}
+
+.clock-outline {
+    border: 5px solid gray;
+    display: flex;
+    justify-content: center;
+    top: 10%;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 60px;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+}
+
+#clock {
+    text-align: center;
+    width: 600px;
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    border: 1px solid lightgray;
+}
+
+#clock h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 20px;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: normal;
+    align-items: center;
+}
+
+.clock-item {
+    width: 32%;
+    background-color: var(--dark-alt);
+    color: red;
+    border-radius: 10px;
+    margin-right: 5%;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'orbitron' sans-serif;
+    
+
+}
+
+#date {
+    margin-top: 10px;
+}
